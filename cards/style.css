@@ -1,0 +1,76 @@
+/* schermi da 320px */
+
+.container{
+    display: flex;
+    color:#612406;
+    font-family: 'Roboto', sans-serif;;
+}
+
+#card-container{
+    background-color: #fbf7e3;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    border-radius: 75px;
+    overflow: hidden;
+}
+
+#bioHoney{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+.center{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.center p{
+    margin: 0;
+}
+
+.price{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 18px;
+    font-size: 1.2em;
+    font-weight: 700;
+    
+}
+
+
+ h2{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.honey{
+    object-fit: contain;
+}
+
+img{
+    width: 100%;
+}
+#addTo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #f3df85;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#612406;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
